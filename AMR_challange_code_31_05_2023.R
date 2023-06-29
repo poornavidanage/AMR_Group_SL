@@ -1,4 +1,4 @@
-setwd("C:\\Users\\poorn\\OneDrive - University of Moratuwa\\Research_Projects\\AMR Challenge 2023\\Data Challenge - SL Team\\ATLAS_Antibiotics\\AMR_submission")
+setwd("C:\\Users\\AMR Challenge 2023\\Data Challenge - SL Team\\ATLAS_Antibiotics\\AMR_submission")
 list.files()
 data <- read.csv("2022_04_28_Vivli_Atlas_Data_Antibiotics.csv")
 
@@ -199,7 +199,7 @@ popl_78 <- read.csv("population_data_78_countries.csv" )
 
 df_pop <- Str_AU_MRSA
 for (country in names(Str_AU_MRSA)[-1]) {
-  df_pop[[country]] <- Str_AU_MRSA[[country]]*1E6 / popl_78$Population[popl_78$ï..Country == country]
+  df_pop[[country]] <- Str_AU_MRSA[[country]]*1E6 / popl_78$Population[popl_78$Ã¯..Country == country]
 }
 
 #remove the columns
@@ -315,7 +315,7 @@ popl_78 <- read.csv("population_data_78_countries.csv" )
 
 df_pop <- K_pnu_ESBL
 for (country in names(K_pnu_ESBL)[-1]) {
-  df_pop[[country]] <- K_pnu_ESBL[[country]]*1E6 / popl_78$Population[popl_78$ï..Country == country]
+  df_pop[[country]] <- K_pnu_ESBL[[country]]*1E6 / popl_78$Population[popl_78$Ã¯..Country == country]
 }
 
 #remove the columns
@@ -430,7 +430,7 @@ popl_78 <- read.csv("population_data_78_countries.csv" )
 
 df_pop <- E_col_ESBL
 for (country in names(E_col_ESBL)[-1]) {
-  df_pop[[country]] <- E_col_ESBL[[country]]*1E6 / popl_78$Population[popl_78$ï..Country == country]
+  df_pop[[country]] <- E_col_ESBL[[country]]*1E6 / popl_78$Population[popl_78$Ã¯..Country == country]
 }
 
 #remove the columns
@@ -546,7 +546,7 @@ popl_78 <- read.csv("population_data_78_countries.csv" )
 
 df_pop <- Ps_aer_ESBL
 for (country in names(Ps_aer_ESBL)[-1]) {
-  df_pop[[country]] <- Ps_aer_ESBL[[country]]*1E6 / popl_78$Population[popl_78$ï..Country == country]
+  df_pop[[country]] <- Ps_aer_ESBL[[country]]*1E6 / popl_78$Population[popl_78$Ã¯..Country == country]
 }
 
 #remove the columns
