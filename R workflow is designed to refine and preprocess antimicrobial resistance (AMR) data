@@ -1,0 +1,12 @@
+cff-version: v1.0.0
+message: "R workflow is designed to refine and preprocess antimicrobial resistance (AMR) data "
+authors:
+  - family-names: "Vidanage"
+    given-names: "Poorna"
+    orcid: "https://orcid.org/0000-0001-6013-2345"
+
+title: "R workflow is designed to refine and preprocess antimicrobial resistance (AMR) data "
+version: v1.0.0
+doi: 10.5281/zenodo.15110739
+date-released: 2023-05-31
+url: "https://github.com/poornavidanage/AMR_Group_SL/releases/tag/v1.0.0"
